@@ -27,12 +27,12 @@ pip install -r requirements.txt
 - **Format for one user**
 
   ```shell
-  python3 LoginTester.py -one [username] [password_file_path] [Request Link]
+  python3 LoginTester.py -one [username] [password_file_path] [Request Link] [redirect options]
   ```
 
 - **Format for multiple users**
   ```shell
-  python3 LoginTester.py -mul [username_file_path] [password_file_path] [Request Link]
+  python3 LoginTester.py -mul [username_file_path] [password_file_path] [Request Link] [redirect option]
   ```
 
 **IMPORTANT!! (info regarding the host URL)**
