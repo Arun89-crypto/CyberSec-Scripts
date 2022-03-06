@@ -4,7 +4,8 @@
 
 ```shell
 mkdir LoginTester
-unzip LoginTester.zip > LoginTester
+cd LoginTester
+unzip ../LoginTester.zip
 ```
 
 ### Install requirements.txt
