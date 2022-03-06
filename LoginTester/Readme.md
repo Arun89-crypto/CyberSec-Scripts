@@ -14,6 +14,16 @@ unzip ../LoginTester.zip
 pip install -r requirements.txt
 ```
 
+### Options
+
+**REDIRECT OPTIONS** (insert at end)
+
+-roff : To turn off redirects (in some cases website can redirect to login and may return 200 as status code at end Saying found so in order to bypass that and analyzing the redirect params we can get the true user)
+
+-ron : To turn on redirects
+
+### Formats
+
 - **Format for one user**
 
   ```shell
